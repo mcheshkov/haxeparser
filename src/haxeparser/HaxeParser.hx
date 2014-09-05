@@ -29,7 +29,7 @@ enum SmallType {
 	SString(s:String);
 }
 
-class HaxeCondParser extends hxparse.Parser<hxparse.LexerTokenSource<Token>, Token> implements hxparse.ParserBuilder {
+class HaxeCondParser extends HaxeCondParserBase implements hxparse.ParserBuilder {
 	public function new(stream){
 		super(stream);
 	}
@@ -232,7 +232,7 @@ class HaxeTokenSource {
 	}
 }
 
-class HaxeParser extends hxparse.Parser<HaxeTokenSource, Token> implements hxparse.ParserBuilder {
+class HaxeParser extends HaxeParserBase implements hxparse.ParserBuilder {
 
 	var defines:Map<String, Dynamic>;
 

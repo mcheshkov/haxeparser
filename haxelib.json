@@ -1,0 +1,9 @@
+{
+  "name": "haxeparser-substituted",
+  "url": "https://github.com/mcheshkov/haxeparser/tree/substituted",
+  "license": "MIT",
+  "description": "Haxe parser on haxe, substitued generics version",
+  "version": "1.0.0",
+  "releasenote": "Initial version",
+  "contributors": ["Simn","mcheshkov"]
+}
